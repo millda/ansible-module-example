@@ -1,0 +1,13 @@
+---
+
+- name: upload module
+  copy: src=library/example_class.py dest=/tmp/example_class.py
+
+- name: run the module
+  demo:
+    destination: 'the people'
+  register: output
+
+- name: dump test output
+  debug:
+    msg: '{{ output }}'

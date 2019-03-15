@@ -1,0 +1,5 @@
+---
+- name: Run demo module
+  hosts: localhost
+  tasks:
+  - include_tasks: tasks/main.yml
