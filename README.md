@@ -3,6 +3,7 @@
 a very basic ansible module without a lot of documentation. See the reference links before for more detailed explanations.
 
 ## Files
+```
 +-- ansible.cfg: Add the path to your module here
 +-- playbook.yml: Example call to your custom module
 +-- roles
@@ -14,6 +15,7 @@ a very basic ansible module without a lot of documentation. See the reference li
 |   |   |   +-- tasks
 |   |   |   |   +-- main.yml: Ansible task called when the role is imported
 |   |   +-- test.yml
+```
 
 ## References
 
