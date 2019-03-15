@@ -17,7 +17,7 @@ class Automation:
         if self.destination:
             return False, {
                 'changed': True,
-                'message': 'Automation is for ' + self.destination
+                'message': 'Automation for ' + self.destination + '!'
             }
         return True, {
             'changed': True,

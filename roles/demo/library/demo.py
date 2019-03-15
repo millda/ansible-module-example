@@ -17,6 +17,7 @@ def run_module():
     # define available arguments/parameters a user can pass to the module
     module_args = {"destination": {"required": True, "type": "str"}}
 
+    # Ansible provided object, based on ansible.module_utils.basic
     module = AnsibleModule(
         argument_spec=module_args,
         supports_check_mode=False
