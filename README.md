@@ -12,8 +12,8 @@ a very basic ansible module without a lot of documentation. See the reference li
 |   |   |   +-- __init__.py
 |   |   |   +-- demo.py: Ansible tasks calls this file by name
 |   |   |   +-- example_class.py: Class for custom logic
-|   |   |   +-- tasks
-|   |   |   |   +-- main.yml: Ansible task called when the role is imported
+|   |   +-- tasks
+|   |   |   +-- main.yml: Ansible task called when the role is imported
 |   |   +-- test.yml
 ```
 
